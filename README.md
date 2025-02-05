@@ -22,9 +22,13 @@ Including but not limited to:
 - Video files (MP4, WebM, MPEG, 3GPP, etc.)
 
 ## Usage
-
+```bash
+go get -u github.com/fanqie/mimeTypes
+```
 ```go
-import "your-module/pkg/mime"
+import (
+    "github.com/fanqie/mimeTypes"
+)
 // Get MIME type for a file
 mimeType := mime.GetMimeType(".jpg") // returns "image/jpeg"
 ```

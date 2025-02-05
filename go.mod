@@ -1,4 +1,4 @@
-module github.com/fanqie/mimeTypes@v1.0.0
+module github.com/fanqie/mimeTypes
 
 go 1.23.0
 
