@@ -27,7 +27,7 @@ go get -u github.com/fanqie/mimeTypes
 ```
 ```go
 import (
-    "github.com/fanqie/mimeTypes"
+    mime "github.com/fanqie/mimeTypes/pkg"
 )
 // Get MIME type for a file
 mimeType := mime.GetMimeType(".jpg") // returns "image/jpeg"
